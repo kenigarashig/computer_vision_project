@@ -1,0 +1,31 @@
+Parking Spot Detection
+
+Este proyecto tiene como objetivo identificar si un lugar de estacionamiento está disponible o no, basado en imágenes cargadas por el usuario.
+ Utiliza un modelo de aprendizaje entrenado con la arquitectura ResNet50, y ofrece una interfaz de usuario interactiva desarrollada con Streamlit.
+
+Descripción General
+
+El proyecto consta de dos componentes principales:
+
+Notebook: Contiene las fases de desarrollo y análisis del modelo. Incluye:
+
+Exploración y limpieza del dataset.
+
+Análisis exploratorio de datos (EDA) para identificar patrones relevantes.
+
+Entrenamiento del modelo ResNet50 con datos etiquetados para clasificar lugares de estacionamiento como vacíos o no vacíos.
+
+Ajuste de hiperparámetros como el tamaño del lote, la función de pérdida y la tasa de aprendizaje.
+
+Evaluación de la precisión del modelo y pruebas con datos de validación.
+
+
+Script Python (parking_detection_page.py): Implementa la interfaz de usuario y la integración con el modelo entrenado. Este script:
+
+Carga el modelo previamente entrenado.
+
+Permite a los usuarios cargar imágenes a través de una interfaz sencilla.
+
+Procesa las imágenes para que sean compatibles con los requisitos del modelo.
+
+Genera predicciones y las presenta al usuario en un formato claro.
